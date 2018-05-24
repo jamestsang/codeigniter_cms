@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+body {
+  font-size: 12px;
+  color: #333;
+}
+body,
+body input body,
+textarea {
+  font-family: "Roboto Condensed", "PT Sans", Arial, Verdana, Helvetica, sans-serif;
+}
+.compulsory {
+  color: red;
+  padding-right: 5px;
+}
+.ui-datepicker-title select {
+  color: #000;
+}
+.empty-field {
+  text-align: center;
+}
+#media-uploader #uploader-wrapper {
+  padding: 10px;
+}
+#media-uploader .uploadify {
+  float: right;
+}
+#media-uploader .file-list {
+  padding: 10px;
+}
+#media-uploader .file-list .temp {
+  display: none;
+}
+#media-uploader .image-list {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#media-uploader .image-list .row {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+#media-uploader .image-list .move-icon {
+  margin-top: 10px;
+}
+#media-uploader .image-list .thumb {
+  padding: 0 15px 0 15px;
+}
+#media-uploader .image-list .thumb img {
+  width: 80%;
+}
+#media-uploader .image-list .title {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+#media-uploader .image-list .title > div {
+  font-weight: bold;
+}
+#media-uploader .image-list .title > input {
+  width: 80%;
+}
+#media-uploader .image-list .delete-icon {
+  margin-top: 10px;
+  text-align: right;
+}
+#media-uploader .image-list .delete-icon > span {
+  cursor: pointer;
+  color: red;
+}
+#dropzone {
+  border: 2px dashed #0087F7;
+  border-radius: 5px;
+  margin: 10px;
+}
+#dropzone > form {
+  border: 0;
+}
+#dropzone .dz-message {
+  font-size: 18px;
+  color: #666;
+  font-weight: bold;
+}
+.filter-wrapper {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.waiting-lv-box .box-header {
+  text-align: center;
+}
+.waiting-lv-box .box-header .fa {
+  font-size: 50px;
+}
+.waiting-lv-box .box-header.lv-0 .fa {
+  color: #BDBDBD;
+}
+.waiting-lv-box .box-header.lv-1 .fa {
+  color: #91DC5A;
+}
+.waiting-lv-box .box-header.lv-2 .fa {
+  color: #FFCD00;
+}
+.waiting-lv-box .box-header.lv-3 .fa {
+  color: #E75252;
+}
+.waiting-lv-box .box-body label {
+  font-size: 15px;
+}

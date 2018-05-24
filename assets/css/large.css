@@ -1,0 +1,22 @@
+@media (min-width: 992px) {
+  .header-style-1 .container-flud .row {
+    padding-bottom: 20px;
+  }
+  .header-style-1 .container-flud .row .site-title {
+    font-size: 28px;
+    text-align: left;
+  }
+  .header-style-1 .container-flud .row .right-logo > img {
+    max-width: 100%;
+  }
+  .book-page .book-wrapper section .grid > .wrapper > .item {
+    border: 0 !important;
+    background-color: #fff;
+  }
+  .book-page .book-wrapper section .grid > .wrapper > .item:nth-child(3n+1) {
+    background-color: #faf6f0;
+  }
+  .book-page .book-wrapper section .grid.single > .wrapper > .item:last-child {
+    background-color: #faf6f0;
+  }
+}

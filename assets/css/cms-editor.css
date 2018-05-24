@@ -1,0 +1,27 @@
+* { margin:0px; padding:0px; }
+body{
+    padding: 5px;
+}
+
+p, div, a, li { 
+    color: #595959;
+    font-family: 'Microsoft Jhenghei', '微軟正黑體', 'STHeiti', '華文黑體', 'PMingLiU', '新細明體', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+p, div, li { line-height:21px; font-size: 13px; }
+
+a, a:link, a:active, a:visited { }
+a:hover {  }
+
+img{ /*border:1px solid #bababa;*/}
+
+ul, ol { margin-left:25px; }
+
+table.border_class, table.border_class td, table.border_class th { border-collapse:collapse; border:solid #CCCCCC 1px; }
+
+td { padding:3px; }
+
+hr { border:none; height:1px; background-color:#CCCCCC; color:#CCCCCC; }
+
+table.table-center{margin:0 auto;}

@@ -1,0 +1,4 @@
+
+RewriteEngine on
+RewriteCond $1 !^(image\.php|index\.php|assets|robots\.txt|favicon\.ico|phpmyadmin|D3E59DCF1872AC9E5341CC622F4E5412.txt)
+RewriteRule ^(.*)$ index.php [PT,L]

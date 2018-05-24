@@ -1,0 +1,159 @@
+@import "../plugin/bootstrap/less/variables.less";
+@import "common-function.less";
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: @screen-xs-max){ 
+	.row.equal{
+		display:block;
+	}
+	#main-kv{
+		background-position: center top;
+		.down-arrow{
+			bottom:0;
+		}
+		.bottom{
+			margin-top: 30px;
+		}
+	}
+
+	.main-nav-bar{
+	    .site-logo{
+			>img{
+
+			}
+	    }
+	}
+	.lang-zh-hant ,.lang-zh-hans{
+		.news-style{
+			&#new-video, &#new-photo{
+				background-size: contain;
+				background-position: left top;
+			}
+		}
+		.article-style{
+		    &#new-article{
+		    	background-size: contain;
+				background-position: left top;
+		    }
+		    &#about-us{
+		    	background-size: contain;
+				background-position: left top;
+		    }
+		}
+
+		.training-style{
+		    &#training{
+		    	background-size: contain;
+				background-position: left top;
+		    }
+		}
+
+		.life-book-style{
+		    &#life-book{
+		    	background-size: contain;
+				background-position: left top;
+		    }
+		}
+
+		.event-style{
+			&#event{
+				.wrapper{
+					background-size: contain;
+					background-position: left top;
+				}
+			}
+			.schedule-header{
+		        .month{
+		            display: none;
+		        }
+		        .year{
+		            display: none;
+		        }
+		    }
+		}
+	}
+
+	#footer{
+		.right{
+			text-align: left;
+			margin-top: 20px;
+			> img{
+				width: 35%;
+			}
+		}
+	}
+
+	.new-photo-page, .video-page, .about-page, .news-page, .photo-page, .training-page, .life-page{
+	    .container.content-wrapper{
+			background-size: contain;
+			background-position: left 100px;
+	    }
+	}
+
+	.video-page{
+		.video{
+			height: 300px;
+		}
+	}
+
+	.form-page{
+	    .container.content-wrapper{
+	    	padding-left: 20px;
+	    	padding-right: 20px;
+	        .right{
+				background: none;
+	            padding-left: 10px;
+	            padding-right: 10px;
+	        }
+	    }
+	}
+}
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { 
+	.form-page{
+	    .container.content-wrapper{
+	        .right{
+				background: none;
+	            padding-left: 10px;
+	            padding-right: 10px;
+	        }
+	    }
+	}
+}
+
+@media (min-width: @screen-lg-min) { 
+	.event-style{
+	    &#event{
+	        .schedule-bg{
+	            position: relative;
+	            top:-30px;
+	            .background2x("images/schedule", "png", auto, auto, center top); 
+	            padding-bottom: 40px;
+	            background-color: transparent;
+	            box-shadow: none;
+	            .container{
+	                background-color: transparent;
+	            }
+	            .content-wrapper{
+	                background-color: transparent;
+	            }
+	        }
+	    }
+	    .schedule-header{
+	        width: 260px;
+	        height: auto;
+	        margin:70px auto 0;
+	        padding-right: 60px;
+			border-radius:0;
+			padding-top: 0;
+	        background-color: transparent;
+	        .month{
+	            top:0;
+	        }
+	        .year{
+	            right: -100px;
+	            top: 20px;
+	        }
+	    }
+	}
+}

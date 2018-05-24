@@ -1,0 +1,179 @@
+/* `XHTML, HTML4, HTML5 Reset
+----------------------------------------------------------------------------------------------------*/
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+dialog,
+div,
+dl,
+dt,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+meter,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+progress,
+q,
+rp,
+rt,
+ruby,
+s,
+samp,
+section,
+small,
+strike,
+summary,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video,
+xmp,
+strong, em, span, font, sub, sup {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html{ }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    /*
+      Override the default (display: inline) for
+      browsers that do not recognize HTML5 tags.
+
+      IE8 (and lower) requires a shiv:
+      http://ejohn.org/blog/html5-shiv
+    */
+    display: block;
+}
+
+b,
+strong {
+    /*
+      Makes browsers agree.
+      IE + Opera = font-weight: bold.
+      Gecko + WebKit = font-weight: bolder.
+    */
+    font-weight: bold;
+}
+
+img {
+    font-size: 0;
+    vertical-align: middle;
+    border: 0px;
+    /*
+      For IE.
+      http://css-tricks.com/ie-fix-bicubic-scaling-for-images
+    */
+    -ms-interpolation-mode: bicubic;
+}
+
+li {
+    /*
+      For IE6 + IE7.
+    */
+    display: list-item;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th,
+td,
+caption {
+    font-weight: normal;
+    /*vertical-align: top;*/
+    text-align: left;
+}
+
+svg {
+    /*
+      For IE9 beta.
+    */
+    overflow: hidden;
+}
+
+a{
+	text-decoration: none;
+}
+
+.clear_class { float:none; clear:both; font-size:0px; line-height:0px; margin:0px; padding:0px; }
+
+.clearfix:after { content: "."; display:block; height:0px; clear:both; visibility:hidden; }
+.clearfix { zoom:1 \9; display:block; }
+
+.pic_only { line-height:0px; font-size:0px; }
+
+/*-----------------------------------------------*/

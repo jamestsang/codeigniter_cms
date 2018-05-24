@@ -1,0 +1,54 @@
+@import "../plugin/bootstrap/less/variables.less";
+@import "common-function.less";
+
+@yellow-color:#F9E06D;
+@font-color: #595959;
+@red-color: #D42E12;
+@book-bg: #FAF6F0;
+@btn-bg: #F7D117;
+
+@media (min-width: @screen-md-min) {
+    .header-style-1{
+        .container-flud{
+            
+            .row{
+                padding-bottom: 20px;
+                .site-title{
+                    font-size: 28px;
+                    text-align: left;
+                }
+                .right-logo{
+                    > img{
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .book-page{
+        .book-wrapper{
+            section{
+                .grid{
+                    > .wrapper{
+                        > .item{
+                            border:0 !important;
+                            background-color: #fff;
+                            &:nth-child(3n+1){
+                                background-color: @book-bg;
+                            }
+                        }
+                    }
+                    &.single{
+                        > .wrapper{
+                            > .item{
+                                &:last-child{
+                                    background-color: @book-bg;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
