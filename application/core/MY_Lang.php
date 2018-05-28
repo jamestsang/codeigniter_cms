@@ -40,7 +40,7 @@ class MY_Lang extends CI_Lang {
 
     /*     * *********************************************** */
 
-    function MY_Lang() {
+    function __construct() {
         parent::__construct();
 
         global $CFG;
